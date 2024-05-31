@@ -1,6 +1,6 @@
 The data has been made available along with the following paper:
 
-Deepak Kamal, Huan Tran, Chiho Kim, Yifei Wang, Lihua Chen, Yang Cao, V. Roshan Joseph, and Rampi Ramprasad, 
+Janhavi Nistane, Lihua Chen, Youngjoo Lee, Ryan Lively and Rampi Ramprasad,
 [Estimation of the Flory-Huggins interaction parameter of polymer-solvent mixtures using machine learning](https://doi.org/10.1557/s43579-022-00237-x), MRS Communications, 12, 1096–1102 (2022).
 
 The dataset comprises 7 columns:
