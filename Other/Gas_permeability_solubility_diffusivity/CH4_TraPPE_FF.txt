@@ -1,0 +1,17 @@
+# CO2 molecule file. TraPPE model.
+
+1 atoms
+0 bonds
+0 angles
+
+Coords
+
+1        0.0 0.0 0.0
+
+Types
+
+1        1
+
+Charges
+
+1        0
