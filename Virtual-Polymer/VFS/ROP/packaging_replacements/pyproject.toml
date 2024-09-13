@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vfs_rop"
+version = "0.1.0"
+description = ""
+authors = ["Joe Kern <josephdanielkern@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+rdkit = "^2024.3.5"
+matplotlib = "^3.9.2"
+jupyterlab = "^4.2.5"
+pydantic = "^2.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
