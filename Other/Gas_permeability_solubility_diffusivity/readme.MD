@@ -41,3 +41,18 @@ The dataset comprises 31 columns:
 Property list:
 'd_exp_CH4', 'd_exp_CO2', 'd_exp_H2', 'd_exp_He', 'd_exp_N2', 'd_exp_O2', 'd_sim_CH4', 'd_sim_CO2', 'd_sim_N2', 'd_sim_O2', 'p_exp_CH4', 'p_exp_CO2', 'p_exp_H2', 'p_exp_He', 'p_exp_N2', 'p_exp_O2', 'p_sim_CH4', 'p_sim_CO2', 'p_sim_N2', 'p_sim_O2', 's_exp_CH4', 's_exp_CO2', 's_exp_H2', 's_exp_He', 's_exp_N2', 's_exp_O2', 's_sim_CH4', 's_sim_CO2', 's_sim_N2', 's_sim_O2'
 
+
+## Citation
+If you use this repository in your work please consider citing the origial paper paper.
+```
+@article{phan2024gas,
+  title={Gas permeability, diffusivity, and solubility in polymers: Simulation-experiment data fusion and multi-task machine learning},
+  author={Phan, Brandon K and Shen, Kuan-Hsuan and Gurnani, Rishi and Tran, Huan and Lively, Ryan and Ramprasad, Rampi},
+  journal={npj Computational Materials},
+  volume={10},
+  number={1},
+  pages={186},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+```
