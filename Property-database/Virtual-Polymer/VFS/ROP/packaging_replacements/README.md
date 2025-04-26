@@ -68,6 +68,10 @@ The `reaction_procedure.json` file contains all reaction procedures used to gene
 
 `react.ipynb` has some example code that explores how to use these reaction procedures to create new polymers, and models.py has some pydantic `models.py` that explain further different keywords used in the json file.
 
+
+## Database
+`schema.sql` holds a SQL representation of the database we used for this project. It can be visualized at [dbdiagram.io](https://dbdiagram.io/) by copy-pasting the schema text into the user interface.
+
 ## Prediction Models
 All predicted properties except for Enthalpy are from the model in the paper "C. Kuenneth and R. Ramprasad, “polyBERT: a chemical language model to enable fully machine-driven ultrafast polymer informatics,” Nat Commun, vol. 14, no. 1, Art. no. 1, Jul. 2023, doi: 10.1038/s41467-023-39868-6.
 
