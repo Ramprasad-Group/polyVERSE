@@ -1,0 +1,56 @@
+### Initialization
+atom_style      full
+units           real
+
+pair_style      lj/cut/coul/long 12.0 12.0
+pair_modify     mix arithmetic
+kspace_style    pppm 1e-4
+bond_style      harmonic
+angle_style     harmonic
+dihedral_style  fourier
+improper_style  cvff
+special_bonds   amber
+
+read_data       amorphous_polymer_diffusivity.lmps
+
+neighbor        2.0 bin
+neigh_modify    delay 0 every 1 check yes
+
+thermo_style    custom step temp density vol press ke pe ebond evdwl ecoul elong
+thermo          1000
+timestep        1
+
+
+### Minimization
+min_style       cg
+minimize        1.0e-8 1.0e-10 1000000 100000000
+
+
+### Slowly ramp up system temperature
+fix             fNVE all nve
+fix             fTRESCALE all temp/rescale 1 0.0 300.0 0.05 1.0
+run             50000
+unfix           fNVE
+unfix           fTRESCALE
+
+
+### Additional NPT Equilibration
+reset_timestep	0
+restart         10000000 NPT.restart
+dump            dump1 all custom 10000 equil_npt_gas.lammpstrj id mol type mass q xs ys zs ix iy iz
+dump_modify     dump1 first yes
+fix             fNPT all npt temp 300.0 300.0 100.0 iso 1.0 1.0 100.0
+
+run             10000000
+
+unfix           fNPT
+undump          dump1
+
+
+### Production NVT
+reset_timestep	0
+
+fix             fNVT all nvt temp 300.0 300.0 100.0
+dump            dump2 all custom 10000 production_long.lammpstrj id mol type mass q xs ys zs ix iy iz
+dump_modify     dump2 first yes
+run             100000000
