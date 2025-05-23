@@ -40,7 +40,14 @@ This spreadsheet contains experimental and simulated data for solvent diffusivit
 5. **Experimental / Simulated Selector**: One-hot encoded vectors to denote whether the data point is experimental or simulated
 6. **Diffusivity(log10)**: Solvent diffusivity in polymer in log10 scale
 
-##### Link to the sorption uptake dataset: [Sorption Uptake Dataset (Excel)](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-40257-2/MediaObjects/41467_2023_40257_MOESM3_ESM.xlsx)
+##### `master_uptake_sorption_dataset.csv`
+This spreadsheet contains experimental sorption uptake data. The dataset includes the following columns:
+
+1. **Polymer Canonical SMILES**
+2. **Solvent Canonical SMILES**
+3. **Activities**: Solvent activity
+4. **log10MV**: Log10 transformed molecular volume of the solvent, calculated using its density (liquid_density_solvent) and molecular weight (MW_rdkit).
+5. **Uptake Sorption(log10)**: Solvent Uptake Sorption in log10 scale
 
 ## Citation
 If you use this repository in your work, please consider citing the original paper:
