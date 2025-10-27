@@ -1,6 +1,6 @@
 # Gas transport simulations
 
-This repository contains the most up-to-date gas transport dataset, combining experimental and simulation data. It includes data from the following publications: “Gas permeability, diffusivity, and solubility in polymers: Simulation-experiment data fusion and multi-task machine learning” and “polyBERT: a chemical language model to enable fully machine-driven ultrafast polymer informatics”, as well as newly generated or collected data. The dataset features a source column indicating the origin of each entry, with values corresponding to the sources: "Gas npj (2024)", "polyBERT", and "polyVERSE_2025_06_23".
+This repository contains the most up-to-date gas transport dataset, combining experimental and simulation data. It includes data from the following publications: “[Gas permeability, diffusivity, and solubility in polymers: Simulation-experiment data fusion and multi-task machine learning](https://www.nature.com/articles/s41524-024-01373-9)” and “[polyBERT: a chemical language model to enable fully machine-driven ultrafast polymer informatics](https://www.nature.com/articles/s41467-023-39868-6)”, as well as newly generated or collected data. The dataset features a source column indicating the origin of each entry, with values corresponding to the sources: "Gas npj (2024)", "polyBERT", and "polyVERSE_2025_06_23".
 
 \
 [master_transport_2025_08_13.csv](master_transport_2025_08_13.csv) 
