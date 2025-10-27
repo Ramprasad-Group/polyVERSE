@@ -1,6 +1,6 @@
 The data has been made available along with the following paper:
 
-**Harikrishna Sahu, Akhlak Mahmood, Labeeba B. Shafique & Rampi Ramprasad**,[From Corpus to Innovation: Advancing Organic Solar Cell Design with Large Language Models](), submitted, 2025.
+**Harikrishna Sahu, Akhlak Mahmood, Labeeba B. Shafique & Rampi Ramprasad**, [From Corpus to Innovation: Advancing Organic Solar Cell Design with Large Language Models](), submitted, 2025.
 
 ---
 
