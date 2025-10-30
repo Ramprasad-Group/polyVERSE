@@ -1,4 +1,6 @@
-The data will be made available in an upcoming contribution by William Schertzer, Shivank Shukla, Reanna Rafiq and Rampi Ramprasad.
+The data has been made available along with the following paper:
+
+William Schertzer, Shivank Shukla, Abhishek Sose, Reanna Rafiq, Mohammed Al Otmi, Janani Sampath, Ryan P. Lively, Rampi Ramprasad, "AI driven design of fluorine-free polymers for sustainable and high-performance anion exchange membranes", Journal of Materials Informatics (2025)
 
 The dataset comprises 11 columns:
 
