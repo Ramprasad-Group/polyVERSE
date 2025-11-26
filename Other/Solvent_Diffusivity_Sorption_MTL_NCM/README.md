@@ -39,7 +39,7 @@ This spreadsheet contains experimental and simulated data for solvent diffusivit
 4. **Weight Fraction of Solvent** (mass of solvent / (mass of solvent + mass of polymer))
 5. **Experimental / Simulated Selector**: One-hot encoded vectors to denote whether the data point is experimental or simulated
 6. **Target Diffusivity Value(log10)**: Solvent diffusivity in polymer in log10 scale
-7. **Source**  Reference to the papers in which the dataset was compiled:
+7. **Source**: Reference to the papers in which the dataset was compiled:
    
 - **ncomm (2023)**: Lee, Y.J., Chen, L., Nistane, J. et al. *Nat Commun* 14, 4931 (2023). [https://doi.org/10.1038/s41467-023-40257-2](https://doi.org/10.1038/s41467-023-40257-2)
 - **npj (2025)**: Nistane, J., Datta, R., Lee, Y.J. et al. *npj Comput Mater* 11, 187 (2025). [https://doi.org/10.1038/s41524-025-01681-8](https://doi.org/10.1038/s41524-025-01681-8)
