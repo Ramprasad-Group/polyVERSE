@@ -18,7 +18,7 @@ df = pd.concat([df1, df2, df3], ignore_index=True)
     - `canoncial_smiles`: the canonicalized polymer SMILES
     - `source`: the method by which the structure was generated or curated
     - `monomer_smiles`: the corresponding cyclic ROP monomer SMILES
-    -  'rop_type`: the monomer class assigned by the chemical heuristics filter
+    - `rop_type`: the monomer class assigned by the chemical heuristics filter
     - `mechanism_profile`: the polymerization mechanism profile predicted by the chemical heuristics filter
-    - 'commercial_availability': a Boolean indicator of whether the corresponding monomer is commercially available
-    - 'SAscore': the RDKit synthetic accessibility score of the hydrogen-capped polymer SMILES
+    - `commercial_availability`: a Boolean indicator of whether the corresponding monomer is commercially available
+    - `SAscore`: the RDKit synthetic accessibility score of the hydrogen-capped polymer SMILES
