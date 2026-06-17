@@ -1,15 +1,15 @@
 # Ring-Opening Polymerization (ROP) Dataset
 
-This repository contains a dataset of 1,454,122 ring-opening polymerization (ROP) polymer structures generated using VFS, polyBART, adn POLYT5.
+This repository contains a dataset of 1,454,122 ring-opening polymerization (ROP) polymer structures generated using VFS, polyBART, and POLYT5.
 
 Due to GitHub file size limitations, the complete dataset is distributed across three Parquet files which can be concatenated row-wise. To merge these into a single file, you can use the following code:
 ```Python
 from pathlib import Path
 import pandas as pd
 
-df1 = pd.read_parquet("ROP_data_split1.parquet")
-df2 = pd.read_parquet("ROP_data_split2.parquet")
-df3 = pd.read_parquet("ROP_data_split3.parquet")
+df1 = pd.read_parquet("data_split1.parquet")
+df2 = pd.read_parquet("data_split2.parquet")
+df3 = pd.read_parquet("data_split3.parquet")
 df = pd.concat([df1, df2, df3], ignore_index=True)
 ```
 
