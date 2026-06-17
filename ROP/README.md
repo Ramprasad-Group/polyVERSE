@@ -15,7 +15,7 @@ df = pd.concat([df1, df2, df3], ignore_index=True)
 
 - Each file has the following columns:
     - `smiles`: the polymer SMILES representation
-    - `canoncial_smiles`: the canonicalized polymer SMILES
+    - `canonical_smiles`: the canonicalized polymer SMILES
     - `source`: the method by which the structure was generated or curated
     - `monomer_smiles`: the corresponding cyclic ROP monomer SMILES
     - `rop_type`: the monomer class assigned by the chemical heuristics filter
