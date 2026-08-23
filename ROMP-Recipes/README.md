@@ -1,10 +1,8 @@
 # ROMP-Recipes
 
-This folder contains the requested review materials for the manuscript:
+This folder contains materials for the manuscript:
 
 **Mechanism-Informed Artificial Intelligence Framework for Predicting Polymer Synthesis Procedures: Application to Ring-Opening Metathesis Polymerization**
-
-The materials were prepared for Nature Communications manuscript NCOMMS-26-063049.
 
 ## Contents
 
