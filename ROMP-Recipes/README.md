@@ -6,5 +6,4 @@ This folder contains materials for the manuscript:
 
 ## Contents
 
-- `checklists/`: completed Machine Learning Checklist and Code and Software Submission Checklist requested by Nature Communications.
 - `Code_package/`: representative source code, dependencies, README, demo commands, example data, and expected outputs.
