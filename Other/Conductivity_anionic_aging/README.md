@@ -1,4 +1,4 @@
-The data has been made available along with the following paper (to be published):
+The data has been made available along with the following paper:
 
 Schertzer, William; Al Otmi, Mohammed; Sampath, Janani; Lively, Ryan; Ramprasad, Rampid, "AI-Assisted Physics-Informed Predictions of Degradation Behavior of Polymeric Anion Exchange Membranes", The Journal of Physical Chemistry, Part B: Biophysics, Biomaterials, Liquids, Soft Matter, Section: B: Soft Matter, Fluid Interfaces, Colloids, Polymers, and Glassy Materials 
 
@@ -36,6 +36,6 @@ The file comprises 21 columns:
 * 16-18: **additivecx**: amount of additive x present in the sample
 * 19: **cont_add**: 1 if the sample contains an additive, 0 otherwise (filled for only some samples)
 * 20: **cont_cl**: 1 if the sample is crosslinked, 0 otherwise (currently empty)
-* 21: **confidence**: confidence in the composition: 1 = structure and composition fully specified by the paper, 0.5 = partly inferred (e.g. crosslinker structure or ratio, random copolymer placement), 0 = cannot be fully represented (e.g. filler-dominated composites, unknown functionalization)
+* 21: **confidence**: confidence in the composition: 1 = structure and composition fully specified by the paper, 0.5 = partly inferred (e.g. crosslinker structure or ratio), 0 = cannot be fully represented (e.g. filler-dominated composites, unknown functionalization degree)
 
 Unused repeat-unit and additive slots are left empty or filled with the placeholder `*CC*` and a composition of 0.
